@@ -90,11 +90,11 @@
 }
 
 @media (max-width: 768px) {
-    .image-product img {
+    .card .image-product img {
         content: url("../images/image-product-mobile.jpg"); 
     }
     
-    .card {
+    .container .card {
         display: flex;
         flex-direction: column;
         max-width: 340px;
